@@ -17,11 +17,9 @@
     "vue": "^3.2.47"
   },
   "peerDependencies": {
-    "@bloc/tailwind-config": "^0.0.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {
-    "@bloc/tailwind-config": "workspace:^0.0.0",
     "@vitejs/plugin-vue": "^4.2.1",
     "typescript": "^5.0.4",
     "vite": "^4.3.3",

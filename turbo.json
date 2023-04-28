@@ -1,0 +1,26 @@
+
+{
+    "$schema": "https://turbo.build/schema.json",  
+    "pipeline": {
+        "build": {
+            "dependsOn": ["^build"],
+            "outputs": [".next/**", "!.next/cache/**"]
+        },
+        "@bloc/bloc-components#build": {
+            "dependsOn": ["^build"],
+            "outputs": ["dist/**"]
+        },
+        "@bloc/frontend#build": {
+          "dependsOn": ["@bloc/bloc-components#build"],
+          "outputs": ["dist/**"]
+        },
+        "@bloc/admin#build": {
+            "dependsOn": ["@bloc/frontend#build"],
+            "outputs": ["dist/**"]
+        },
+        "lint": {},
+        "deploy": {
+          "dependsOn": ["build", "lint"]
+        }
+      }
+}
