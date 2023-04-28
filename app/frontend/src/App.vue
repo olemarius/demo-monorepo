@@ -4,7 +4,7 @@ import { MyBrandButton } from '@bloc/bloc-components';
 
 <template>
     <h1>
-        Frontend
+        Frontend on Vercel!
     </h1>
     <MyBrandButton class="w-48">MyBrandButton</MyBrandButton>
 </template>

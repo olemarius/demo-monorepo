@@ -4,7 +4,7 @@
     "pipeline": {
         "build": {
             "dependsOn": ["^build"],
-            "outputs": [".next/**", "!.next/cache/**"]
+            "outputs": ["dist/**"]
         },
         "@bloc/bloc-components#build": {
             "dependsOn": ["^build"],
@@ -15,8 +15,8 @@
           "outputs": ["dist/**"]
         },
         "@bloc/admin#build": {
-            "dependsOn": ["@bloc/frontend#build"],
-            "outputs": ["dist/**"]
+            "dependsOn": ["@bloc/bloc-components#build"],
+            "outputs": [".dist/**"]
         },
         "lint": {},
         "deploy": {
