@@ -1,4 +1,4 @@
-import components from '@bloc/ui-lib';
+import components from '@bloc/bloc-components';
 
 const UiLibPlugin = {
   install(app: any) {

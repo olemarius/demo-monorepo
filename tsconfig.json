@@ -20,7 +20,7 @@
       "path": "@app/server"
     },
     {
-      "path": "packages/ui-lib"
+      "path": "packages/shared"
     }
   ]
 }

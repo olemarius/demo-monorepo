@@ -22,7 +22,7 @@ To install the dependencies, run:
 
 `pnpm install`
 
-To build the ui-lib, run:
+To build the bloc-components, run:
 
 `pnpm lib build`
 
