@@ -14,7 +14,7 @@
   },
   "references": [
     {
-      "path": "@app/client"
+      "path": "@app/frontend"
     },
     {
       "path": "@app/server"

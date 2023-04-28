@@ -1,13 +1,14 @@
 {
-  "name": "demo-monorepo",
+  "name": "bloc-monorepo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "client": "pnpm --filter @demo/client",
-    "svr": "pnpm --filter @demo/server",
-    "lib": "pnpm --filter @demo/ui-lib",
-    "dev": "pnpm --recursive --parallel --stream run dev"
+    "build": "pnpm --recursive --parallel --stream run build",
+    "dev": "pnpm --recursive --parallel --stream run dev",
+    "frontend": "pnpm --filter @bloc/frontend",
+    "svr": "pnpm --filter @bloc/server",
+    "lib": "pnpm --filter @bloc/ui-lib"
   },
   "keywords": [],
   "author": "",

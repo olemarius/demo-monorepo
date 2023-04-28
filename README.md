@@ -15,8 +15,6 @@ To run this project, you need:
 
 * PNPM 6 or higher
 
-* Docker Desktop (or any other Kubernetes cluster such as Minikube, Kind, etc.)
-
 * DevSpace CLI installed
 
 ## Installation:
@@ -35,7 +33,7 @@ or in whatch mode:
 ## Usage
 To start the frontend app, run:
 
-`pnpm client dev`
+`pnpm frontend dev`
 
 To start the backend app, run:
 
