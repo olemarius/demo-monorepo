@@ -14,10 +14,7 @@
   },
   "references": [
     {
-      "path": "@app/frontend"
-    },
-    {
-      "path": "@app/server"
+      "path": "app/frontend"
     },
     {
       "path": "packages/shared"
