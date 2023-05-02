@@ -8,7 +8,8 @@
     "dev": "turbo run dev --parallel --no-daemon",
     "test" : "turbo run test --no-daemon",
     "preinstall": "npx only-allow pnpm",
-    "prepare" : "husky install"
+    "prepare" : "husky install",
+    "format" : "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "keywords": [],
   "author": "",

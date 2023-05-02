@@ -1,12 +1,13 @@
 # Bloc Monorepo
 
-This is a proof of concept repo, starting out from the pnpm workspace guide by Let's Talk Dev's videos on YT listed below. 
+This is a proof of concept repo, starting out from the pnpm workspace guide by Let's Talk Dev's videos on YT listed below.
 
 The project shows how to set up a monorepo with TypeScript, PNPM, Vite, VueJS.
 
 ## TODO
 
 ### Basics
+
 - [x] Set up a Nuxt project and share components between vue app and nuxt app
 - [x] set up vue-component-plugin, see if it can import from packages
 - [ ] set up shared composables
@@ -20,17 +21,18 @@ The project shows how to set up a monorepo with TypeScript, PNPM, Vite, VueJS.
 - [ ] Set up vitest routines on packages, see https://youtu.be/Q6CK3LyYqmM?t=1538
 
 ### Experimental
+
 - [ ] Test tRCP and Prisma
 - [ ] Test SSR on Vercel
-
 
 Prerequisites
 To run this project, you need:
 
-* Node.js 14 or higher
-* PNPM 6 or higher
+- Node.js 14 or higher
+- PNPM 6 or higher
 
 ## Installation:
+
 To install the dependencies, run:
 
 `pnpm install`
@@ -44,17 +46,15 @@ or in whatch mode:
 `pnpm lib dev`
 
 ## Usage
+
 To start the frontend app, run:
 
 `pnpm frontend dev`
-
 
 For more details and explanations, please watch the YouTube videos.
 
 ## YouTube Videos
 
-* [TypeScript Monorepo Setup with PNPM Workspaces, Vite, VueJS and TailwindCSS](https://youtu.be/HM03XGVlRXI)
+- [TypeScript Monorepo Setup with PNPM Workspaces, Vite, VueJS and TailwindCSS](https://youtu.be/HM03XGVlRXI)
 
-* [DevSpace: The Easiest Way To Develop Kubernetes Apps Locally](https://youtu.be/N_XvAmzXwpA)
-
-
+- [DevSpace: The Easiest Way To Develop Kubernetes Apps Locally](https://youtu.be/N_XvAmzXwpA)

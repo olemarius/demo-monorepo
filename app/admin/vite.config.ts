@@ -9,16 +9,11 @@ export default defineConfig({
     Components({
       dts: true,
       extensions: ['vue'],
-      dirs: [
-          'src/components',
-          '../../packages/bloc-components/src/components'
-      ],
+      dirs: ['src/components', '../../packages/bloc-components/src/components'],
       deep: true,
       include: [/\.vue$/, /\.vue\?vue/, /\.md$/],
-      exclude: [
-          'src/components/Widgets'
-      ],
-    })
+      exclude: ['src/components/Widgets'],
+    }),
   ],
   server: {
     open: true,

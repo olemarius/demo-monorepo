@@ -1,4 +1,3 @@
-
 export { default as MyBrandButton } from './components/MyBrandButton/MyBrandButton.vue';
 export { default as MyBrandInput } from './components/MyBrandInput/MyBrandInput.vue';
 

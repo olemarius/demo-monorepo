@@ -1,4 +1,4 @@
 declare const UiLibPlugin: {
-    install(app: any): void;
+  install(app: any): void;
 };
 export default UiLibPlugin;

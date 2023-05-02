@@ -5,13 +5,13 @@
 // Read more: https://github.com/vuejs/core/pull/3399
 import '@vue/runtime-core'
 
-export {}
+export {};
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    MyBrandButton: typeof import('./../../packages/bloc-components/src/components/MyBrandButton/MyBrandButton.vue')['default']
-    MyBrandInput: typeof import('./../../packages/bloc-components/src/components/MyBrandInput/MyBrandInput.vue')['default']
-    RouterLink: typeof import('vue-router')['RouterLink']
-    RouterView: typeof import('vue-router')['RouterView']
+    MyBrandButton: typeof import('./../../packages/bloc-components/src/components/MyBrandButton/MyBrandButton.vue')['default'];
+    MyBrandInput: typeof import('./../../packages/bloc-components/src/components/MyBrandInput/MyBrandInput.vue')['default'];
+    RouterLink: typeof import('vue-router')['RouterLink'];
+    RouterView: typeof import('vue-router')['RouterView'];
   }
 }
