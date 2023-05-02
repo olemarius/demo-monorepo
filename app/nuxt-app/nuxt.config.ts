@@ -6,5 +6,6 @@ export default defineNuxtConfig({
     ],
     nitro: {
         preset: 'vercel-edge'
-    }
+    },
+    css: ['~/style.css'],
 })
