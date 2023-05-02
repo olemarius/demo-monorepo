@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { MyBrandButton } from '@bloc/bloc-components';
 
 </script>
 <template>
