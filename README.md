@@ -17,6 +17,7 @@ The project shows how to set up a monorepo with TypeScript, PNPM, Vite, VueJS.
 - [ ] Set up shared typescript stores (had a bug for windows)
 - [ ] Make sure caching is set up correctly
 - [ ] Make sure I understand deploy routines correctly
+- [ ] Set up vitest routines on packages, see https://youtu.be/Q6CK3LyYqmM?t=1538
 
 ### Experimental
 - [ ] Test tRCP and Prisma
