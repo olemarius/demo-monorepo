@@ -3,5 +3,8 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
     components:[
         '../../packages/bloc-components/src/components',
-    ]
+    ],
+    nitro: {
+        preset: 'vercel-edge'
+    }
 })
