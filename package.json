@@ -9,7 +9,7 @@
     "test" : "turbo run test --no-daemon",
     "preinstall": "npx only-allow pnpm",
     "prepare" : "husky install",
-    "format" : "prettier --write \"**/*.{ts,tsx,md}\""
+    "format" : "prettier --write \"**/*.{ts,tsx,md,vue}\""
   },
   "keywords": [],
   "author": "",
