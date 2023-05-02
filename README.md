@@ -4,6 +4,24 @@ This is a proof of concept repo, starting out from the pnpm workspace guide by L
 
 The project shows how to set up a monorepo with TypeScript, PNPM, Vite, VueJS.
 
+## TODO
+
+### Basics
+- [ ] Set up a Nuxt project and share components between vue app and nuxt app
+- [ ] set up vue-component-plugin, see if it can import from packages
+- [ ] set up shared composables
+- [ ] Add environment variables
+- [ ] Set up shared pinia stores
+- [ ] Set up Pinia
+- [ ] Set up Storybook
+- [ ] Set up shared typescript stores (had a bug for windows)
+- [ ] Make sure caching is set up correctly
+- [ ] Make sure I understand deploy routines correctly
+
+### Experimental
+- [ ] Test tRCP and Prisma
+- [ ] Test SSR on Vercel
+
 
 Prerequisites
 To run this project, you need:

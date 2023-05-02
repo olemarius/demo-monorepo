@@ -1,3 +1,5 @@
+import './style.css'
+
 import { inject } from '@vercel/analytics';
 import { createApp } from 'vue';
 
