@@ -9,14 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "unplugin-vue-components": "^0.24.1",
     "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@vercel/analytics": "^1.0.0",
     "@bloc/bloc-components": "workspace:^0.0.0",
-    "@vitejs/plugin-vue": "^4.1.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.3.2",
-    "vue-tsc": "^1.4.2"
+    "@vercel/analytics": "^1.0.0",
+    "@vitejs/plugin-vue": "^4.2.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.4",
+    "vue-tsc": "^1.6.3"
   }
 }
