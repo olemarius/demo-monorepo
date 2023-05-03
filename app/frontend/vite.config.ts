@@ -16,10 +16,10 @@ export default defineConfig({
             exclude: ['src/components/Widgets'],
         }),
     ],
-    server: {
-        open: true,
-        port: 8004,
-        host: '0.0.0.0',
-        strictPort: true,
-    },
+    // server: {
+    //     open: true,
+    //     port: 8004,
+    //     host: '0.0.0.0',
+    //     strictPort: true,
+    // },
 });
