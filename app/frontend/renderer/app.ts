@@ -4,7 +4,6 @@ import PageLayout from './PageLayout.vue'
 import { inject } from '@vercel/analytics';
 export { createApp }
 inject();
-
 function createApp(pageContext) {
   const { Page, pageProps } = pageContext
   const PageWithLayout = {
