@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-app/server/tsconfig.tsbuildinfo
 
 
 # Ignore DevSpace cache and log folder
@@ -30,3 +29,5 @@ app/server/tsconfig.tsbuildinfo
 .turbo
 
 .vercel
+tsconfig.tsbuildinfo
+vite.config.*.mjs

@@ -10,5 +10,5 @@ inject();
 // import UiLibPlugin from './UiLibPlugin';
 
 createApp(App)
-  // .use(UiLibPlugin)
-  .mount('#app');
+    // .use(UiLibPlugin)
+    .mount('#app');

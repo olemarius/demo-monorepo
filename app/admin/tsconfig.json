@@ -1,6 +1,7 @@
 {
   "extends": "tsconfig/tsconfig-vue.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "composite": true
   },
   "include": [
