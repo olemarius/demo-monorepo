@@ -4,18 +4,23 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build && vue-tsc --noEmit",
-    "preview": "vite preview"
+    "// We need to define a `build` script, otherwise Vercel ignores the static files living at `dist/client/`": "",
+    "build": "echo 'I will never be called because the `vercel-build` script supersedes me'",
+    "// We need to run the entire build in `vercel-build` instead of `build` so that Vercel keeps the `dist/` directory in production (Vercel discards all files generated during the `build` script.)": "",
+    "vercel-build": "vite build",
+    "// For increased dev speed we use the Vite dev server instead of `vercel dev`": "",
+    "dev": "vite"
   },
   "dependencies": {
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "vite-plugin-ssr": "^0.4.121",
+    "vite-plugin-vercel": "^0.1.7",
     "@bloc/bloc-components": "workspace:*",
-    "tsconfig": "workspace:*",
     "@vercel/analytics": "^1.0.0",
     "@vitejs/plugin-vue": "^4.2.1",
+    "tsconfig": "workspace:*",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.3.4",
     "vue-tsc": "^1.6.3"
