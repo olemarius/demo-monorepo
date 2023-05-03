@@ -1,7 +1,10 @@
 import { createSSRApp, h } from 'vue'
 import PageLayout from './PageLayout.vue'
+import './style.css';
 
+import { inject } from '@vercel/analytics';
 export { createApp }
+inject();
 
 function createApp(pageContext) {
   const { Page, pageProps } = pageContext
