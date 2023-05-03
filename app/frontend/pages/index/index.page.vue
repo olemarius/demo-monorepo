@@ -2,13 +2,12 @@
     <h1>Hello from Vercel</h1>
     This page is:
     <ul>
-      <li>Rendered to HTML.</li>
-      <li>Interactive. <Counter /></li>
+        <li>Rendered to HTML.</li>
+        <li>Interactive. <TestCounter /></li>
     </ul>
-  </template>
+</template>
   
-  <script>
-  import Counter from './Counter.vue'
-  const components = { Counter }
-  export default { components }
-  </script>
+<script lang="ts" setup>
+import TestCounter from './TestCounter.vue';
+const components = { TestCounter };
+</script>

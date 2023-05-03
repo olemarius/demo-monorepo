@@ -1,11 +1,11 @@
 // renderer/_error.page.js
 
-export { Page }
+export { Page };
 
-function Page(pageProps) {
-  if (pageProps.is404) {
+function Page(pageProps: any) {
+    if (pageProps.is404) {
     // Return a UI component "Page Not Found."
-  } else {
+    } else {
     // Return a UI component "Our server is having problems. Sincere apologies. Try again later."
-  }
+    }
 }

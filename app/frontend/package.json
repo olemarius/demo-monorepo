@@ -4,27 +4,30 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "// We need to define a `build` script, otherwise Vercel ignores the static files living at `dist/client/`": "",
-    "build": "echo 'I will never be called because the `vercel-build` script supersedes me'",
-    "// We need to run the entire build in `vercel-build` instead of `build` so that Vercel keeps the `dist/` directory in production (Vercel discards all files generated during the `build` script.)": "",
+    "build": "echo 'build is only here to prevent vercel to remove dist folder entirely'",
     "vercel-build": "vite build",
-    "// For increased dev speed we use the Vite dev server instead of `vercel dev`": "",
-    "dev": "vite --host"
+    "dev": "vite",
+    "preview": "vite build && vite preview",
+    "lint": "eslint . --ext .js,.ts,.vue"
   },
   "dependencies": {
+    "@bloc/admin": "workspace:^",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "config": "^3.3.9",
     "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@vercel/analytics": "^1.0.0",
+    "@bloc/bloc-components": "workspace:*",
+    "@vercel/analytics": "^1.0.1",
     "@vitejs/plugin-vue": "^4.2.1",
     "@vue/compiler-sfc": "^3.2.47",
     "@vue/server-renderer": "^3.2.47",
-    "@bloc/bloc-components": "workspace:*",
+    "tsconfig": "workspace:*",
+    "unplugin-vue-components": "^0.24.1",
     "vite": "^4.3.4",
-    "vue-tsc": "^1.6.3",
     "vite-plugin-ssr": "^0.4.121",
     "vite-plugin-vercel": "^0.1.7",
-    "unplugin-vue-components": "^0.24.1",
-    "tsconfig": "workspace:*"
+    "vue-tsc": "^1.6.3"
   }
 }

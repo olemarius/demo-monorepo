@@ -6,7 +6,8 @@
     "dev": "nuxt dev --open",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "preopare": "nuxt prepare"
+    "preopare": "nuxt prepare",
+    "lint": "eslint . --ext .js,.ts,.vue"
   },
   "devDependencies": {
     "@bloc/bloc-components": "workspace:^0.0.0",

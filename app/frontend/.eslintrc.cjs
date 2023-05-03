@@ -1,8 +1,7 @@
-// For common options across vue apps, edit /packages/config/eslint-vue.js
+/**
+ * @type {import("eslint").Linter.Config}
+ */
 module.exports = {
-  ...require('../../packages/config/eslint-vue.js'),
-  parserOptions: {
-    tsconfigRootDir: __dirname,
-    project: './tsconfig.json'
-  }
-}
+    root: true,
+    ...require('../../packages/config/eslint-vue.js'),
+};

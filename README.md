@@ -9,8 +9,9 @@ The project shows how to set up a monorepo with TypeScript, PNPM, Vite, VueJS.
 ### Basics
 
 -   [x] Set up a Nuxt project and share components between vue app and nuxt app
--   [x] set up vue-component-plugin, see if it can import from packages
--   [ ] set up shared composables
+-   [x] Set up vue-component-plugin, see if it can import from packages
+-   [x] Set up eslint
+-   [ ] Set up shared composables
 -   [ ] Add environment variables
 -   [ ] Set up shared pinia stores
 -   [ ] Set up Pinia
