@@ -4,6 +4,7 @@ import { Movie } from './types';
 defineProps<{
     movies: Movie[]
 }>();
+
 </script>
 <template>
     <h1>Star Wars Movies</h1>
