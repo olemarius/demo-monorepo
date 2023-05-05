@@ -2,6 +2,7 @@ import vue from '@vitejs/plugin-vue';
 import Components from 'unplugin-vue-components/vite';
 import { defineConfig } from 'vite';
 import ssr from 'vite-plugin-ssr/plugin';
+
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [
@@ -19,10 +20,4 @@ export default defineConfig({
     build: {
         minify: false,
     }
-    // server: {
-    //     open: true,
-    //     port: 8004,
-    //     host: '0.0.0.0',
-    //     strictPort: true,
-    // },
 });

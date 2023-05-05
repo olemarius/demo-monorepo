@@ -3,6 +3,9 @@
   "compilerOptions": {
     "baseUrl": "."
   },
+  "types" : [
+    "@intlify/unplugin-vue-i18n/messages"
+  ],
   "include": [
     "components.d.ts",
     "auto-imports.d.ts",
