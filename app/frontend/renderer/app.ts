@@ -1,9 +1,9 @@
 import { createSSRApp, h } from 'vue';
 import PageLayout from './PageLayout.vue';
 import { createPinia } from 'pinia'
-import { inject } from '@vercel/analytics';
+// import { inject } from '@vercel/analytics';
 
-inject();
+// inject();
 
 // i18n 
 import en from '../locales/en.json';
