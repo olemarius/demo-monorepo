@@ -3,13 +3,13 @@
         <div class="navigation">
             <a
                 class="navitem"
-                href="/">Home</a>
+                href="./">Home</a>
             <a
                 class="movies"
-                href="/movies">Movies</a>
+                href="./movies">Movies</a>
             <a
                 class="navitem"
-                href="/about">About</a>
+                href="./about">About</a>
         </div>
         <div class="content">
             <slot />

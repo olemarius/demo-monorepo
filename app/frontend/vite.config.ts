@@ -15,8 +15,8 @@ export default defineConfig({
     plugins: [
         vue(),
         ssr({
-            baseAssets: 'https://bloc-frontend-demo.vercel.app/assets/',
-            baseServer: 'https://bloc-frontend-demo.vercel.app/',
+            baseAssets: 'https://bloc-frontend-demo.vercel.app/',
+            // baseServer: 'https://bloc-frontend-demo.vercel.app/',
         }),
         Components({
             dts: true,
