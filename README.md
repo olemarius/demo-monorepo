@@ -38,13 +38,17 @@ To install the dependencies, run:
 
 `pnpm install`
 
-To build the bloc-components, run:
+Turbo CLI
+Using turbo CLI, the build will be cached, so a consecutive build will be faster. For more details, see
+https://turbo.build/repo/docs/getting-started/add-to-project#quickstart. 
 
-`pnpm lib build`
+`turbo run build` 
 
-or in whatch mode:
+`turbo run dev`
 
-`pnpm lib dev`
+## Deployment
+
+Simply push to the main branch and the app will be deployed to Vercel.
 
 ## Usage
 

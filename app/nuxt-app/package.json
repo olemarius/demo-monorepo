@@ -10,12 +10,12 @@
     "lint": "eslint . --ext .js,.ts,.vue"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@bloc/bloc-components": "workspace:^0.0.0",
-    "@types/node": "^18.16.3",
-    "nuxt": "3.6.5",
-    "nuxi" : "^3.6.5"
+    "@types/node": "^20.6.0",
+    "nuxt": "3.7.1",
+    "nuxi" : "^3.8.3"
   }
 }

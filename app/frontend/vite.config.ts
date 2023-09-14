@@ -5,6 +5,13 @@ import ssr from 'vite-plugin-ssr/plugin';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    server: {
+        open: true,
+        port: 8002,
+        host: '0.0.0.0',
+        strictPort: true,
+    },
+    base: 'https://bloc-frontend-demo.vercel.app/',
     plugins: [
         vue(),
         ssr(),

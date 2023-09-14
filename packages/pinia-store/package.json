@@ -16,7 +16,6 @@
   "dependencies": {
     "tsconfig": "workspace:*",
     "vue": "^3.3.4"
-
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.0",
